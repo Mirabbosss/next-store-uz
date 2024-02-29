@@ -3,7 +3,7 @@
 }
 
 #intro .category {
-    padding-top: 120px;
+    padding-top: 190px;
 }
 
 #intro .category h1 {
@@ -17,13 +17,14 @@
 }
 
 #intro .category .top {
-    display: flex;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 15px;
 }
 
 #intro .category .card {
     background-color: white;
-    width: 150.89px;
     height: 220px;
     padding-top: 9px;
     border-radius: 10px;
@@ -34,7 +35,7 @@
 }
 
 #intro .category .card:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 #intro .category .card img{
@@ -61,7 +62,6 @@
     box-shadow: var(--card-shadow);
     cursor: pointer;
     transition: all 0.4s ease-in-out;
-    margin-left: 15px;
 }
 
 #intro .category button:hover{

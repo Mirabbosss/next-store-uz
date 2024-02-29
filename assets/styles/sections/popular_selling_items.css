@@ -6,7 +6,26 @@
     padding: 50px 0;
 }
 
-#popular_selling_items .big_wrapper h1 {
+#popular_selling_items .big_wrapper .link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#popular_selling_items .big_wrapper .link a{
+    display: none;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 539;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0D63F3;
+    text-decoration: none;
+}
+
+
+#popular_selling_items .big_wrapper .link h1 {
     height: 34px;
     color: #1E1E1E;
     font-size: 28px;

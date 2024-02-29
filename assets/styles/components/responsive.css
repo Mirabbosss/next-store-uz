@@ -1,0 +1,116 @@
+@media only screen and (max-width:360px) {
+    .container {
+        max-width: 360px;
+    }
+
+
+    /* =============== Intro section =============== */
+
+    #intro .category {
+        padding-top: 20px;
+    }
+
+    #intro .category .top {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+        row-gap: 20px;
+        column-gap: 21px;
+    }
+
+
+    /* =============== Carousel =============== */
+
+    .carousel {
+        width: 100%;
+        padding: 20px;
+        height: 180px;
+        border-radius: 8px;
+    }
+
+    .carousel img {
+        width: 260px;
+        height: 180px;
+        border-radius: 8px;
+    }
+
+    /* =============== Categories =============== */
+
+    .categories {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .categories .card {
+        width: 150px;
+        height: 200px;
+        padding: 5px 9px;
+        border-radius: 10px;
+    }
+
+    .categories .card:hover {
+        transform: scale(1.05);
+    }
+
+
+    /* =============== Best Selling items section =============== */
+
+    #best_selling_items .big_wrapper .link {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    #best_selling_items .big_wrapper .link a {
+        display: inline-block;
+    }
+
+    /* =============== Popular Selling items section =============== */
+
+    #popular_selling_items .big_wrapper .link {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    #popular_selling_items .big_wrapper .link a {
+        display: inline-block;
+    }
+
+    /* =============== Footer section =============== */
+
+    footer nav {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer nav .third_list {
+        display: none;
+    }
+
+    footer .wrapper .wrap {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        /* padding: 0; */
+        column-gap: 20px;
+    }
+
+    footer .wrapper .wrap .info .social {
+        margin-top: 60px;
+    }
+
+    footer .wrapper .wrap .info .social img {
+        margin-right: 5px;
+    }
+
+    footer .wrapper .bottom .first {
+        margin-left: 50%;
+    }
+
+    footer .wrapper .bottom .second {
+        display: none;
+    }
+}
