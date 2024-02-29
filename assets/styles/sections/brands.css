@@ -1,0 +1,17 @@
+#brands{
+    width: 100%;
+}
+
+#brands .wrapper{
+    padding: 50px auto;
+}
+
+#brands .wrapper h1{
+    height: 34px;
+    font-size: 28px;
+    font-weight: 591;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1E;
+}

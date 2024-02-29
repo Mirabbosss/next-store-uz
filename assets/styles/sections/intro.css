@@ -2,11 +2,11 @@
     padding-top: 130px;
 }
 
-#intro .categories {
+#intro .category {
     padding-top: 120px;
 }
 
-#intro .categories h1 {
+#intro .category h1 {
     height: 34px;
     color: #1E1E1E;
     font-size: 28px;
@@ -16,12 +16,12 @@
     text-align: left;
 }
 
-#intro .categories .top {
+#intro .category .top {
     display: flex;
     gap: 20px;
 }
 
-#intro .categories .card {
+#intro .category .card {
     background-color: white;
     width: 150.89px;
     height: 220px;
@@ -33,15 +33,15 @@
     transition: all 0.4s ease-in-out;
 }
 
-#intro .categories .card:hover{
+#intro .category .card:hover{
     transform: scale(1.1);
 }
 
-#intro .categories .card img{
+#intro .category .card img{
     margin-top: 9px;
 }
 
-#intro .categories .card h1 {
+#intro .category .card h1 {
     height: 19px;
     font-size: 16px;
     font-weight: 539;
@@ -52,7 +52,7 @@
     margin-top: 3px;
 }
 
-#intro .categories button{
+#intro .category button{
     width: 100%;
     margin-top: 20px;
     border-radius: 10px;
@@ -64,12 +64,12 @@
     margin-left: 15px;
 }
 
-#intro .categories button:hover{
+#intro .category button:hover{
     transform: scale(1.05);
     background-image: var(--bg-gradient-dark);
 }
 
-#intro .categories button a{
+#intro .category button a{
     margin: 0 auto;
     text-decoration: none;
     height: 22px;
