@@ -1,3 +1,5 @@
+/* ================ Header section Intro ================ */
+
 #intro {
     padding-top: 130px;
 }
@@ -34,11 +36,11 @@
     transition: all 0.4s ease-in-out;
 }
 
-#intro .category .card:hover{
+#intro .category .card:hover {
     transform: scale(1.05);
 }
 
-#intro .category .card img{
+#intro .category .card img {
     margin-top: 9px;
 }
 
@@ -53,7 +55,7 @@
     margin-top: 3px;
 }
 
-#intro .category button{
+#intro .category button {
     width: 100%;
     margin-top: 20px;
     border-radius: 10px;
@@ -64,12 +66,12 @@
     transition: all 0.4s ease-in-out;
 }
 
-#intro .category button:hover{
+#intro .category button:hover {
     transform: scale(1.05);
     background-image: var(--bg-gradient-dark);
 }
 
-#intro .category button a{
+#intro .category button a {
     margin: 0 auto;
     text-decoration: none;
     height: 22px;
@@ -78,5 +80,124 @@
     font-weight: 591;
     line-height: 22px;
     letter-spacing: 0em;
-    text-align: center;      
+    text-align: center;
+}
+
+
+/* ================ General section Intro_Computers ================ */
+
+#intro_computers {
+    padding-top: 130px;
+}
+
+#intro_computers .container .big_wrapper {
+    padding-top: 190px;
+}
+
+#intro_computers .container .big_wrapper .wrapper {
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+#intro_computers .container .big_wrapper .wrapper .card {
+    background-color: #fff;
+    transition: all 0.4s ease-in-out;
+    box-shadow: var(--card-shadow);
+    padding: 37px 22px;
+    cursor: pointer;
+}
+
+#intro_computers .container .big_wrapper .wrapper .card:hover {
+    transform: scale(1.05);
+}
+
+#intro_computers .container .big_wrapper .wrapper .card h1 {
+    text-align: center;
+}
+
+#intro_computers .container .big_wrapper .wrapper .card p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#intro_computers .container .big_wrapper .wrapper .card img {
+    margin-left: 20px;
+}
+
+#intro_computers .container .big_wrapper .head_text {
+    display: flex;
+    gap: 1px;
+    align-items: center;
+}
+
+#intro_computers .container .big_wrapper .head_text h1 {
+    margin-left: 3px;
+}
+
+#intro_computers .container .big_wrapper .head_text p {
+    margin-bottom: 8px;
+}
+
+#intro_computers h1 {
+    height: 17px;
+    font-size: 14px;
+    font-weight: 539;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1E;
+    margin-top: 10px;
+}
+
+#intro_computers p {
+    height: 17px;
+    font-size: 14px;
+    font-weight: 539;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6C757D;
+    margin-top: 10px;
+}
+
+
+
+@media only screen and (max-width: 380px) {
+
+    /* ================ General Intro ================ */
+
+    #intro .category {
+        padding-top: 20px;
+    }
+
+    #intro .category .top {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+        row-gap: 20px;
+        column-gap: 21px;
+    }
+
+    /* ================ Intro_Computers ================ */
+
+    #intro_computers .carousel {
+        margin-bottom: 50px;
+    }
+
+    #intro_computers .container .big_wrapper {
+        padding-top: 20px;
+    }
+
+    #intro_computers .container .big_wrapper .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+
+    #intro_computers .container .big_wrapper .wrapper .card img {
+        width: 136px;
+        height: 135px;
+    }
 }

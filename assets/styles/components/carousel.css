@@ -6,7 +6,22 @@
     padding: 55px 0;
 }
 
-.carousel img{
+.carousel img {
     border-radius: 30px;
 }
 
+@media only screen and (max-width: 380px) {
+    .carousel {
+        width: 100%;
+        padding: 20px;
+        height: 180px;
+        border-radius: 8px;
+    }
+
+    .carousel img {
+        height: 180px;
+        border-radius: 8px;
+        object-fit: cover;
+        object-position: left;
+    }
+}

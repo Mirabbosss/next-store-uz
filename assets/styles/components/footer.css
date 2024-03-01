@@ -91,3 +91,40 @@ footer .wrapper .bottom {
     justify-content: space-between;
     border-top: 3px solid pink;
 }
+
+@media only screen and (max-width: 480px) {
+
+    footer nav {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer nav .third_list {
+        display: none;
+    }
+
+    footer .wrapper .wrap {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        /* padding: 0; */
+        column-gap: 20px;
+    }
+
+    footer .wrapper .wrap .info .social {
+        margin-top: 60px;
+    }
+
+    footer .wrapper .wrap .info .social img {
+        margin-right: 5px;
+    }
+
+    footer .wrapper .bottom .first {
+        margin-left: 50%;
+    }
+
+    footer .wrapper .bottom .second {
+        display: none;
+    }
+}
