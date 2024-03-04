@@ -1,0 +1,116 @@
+
+.catalog-hide {
+    transform: translateY(-100%);
+}
+
+.catalog {
+    position: absolute;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    padding: 98px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.7s linear;
+}
+
+.catalog img {
+    position: absolute;
+    top: 116px;
+    left: 30px;
+}
+
+.catalog .catalog_list {
+    background-image: var(--bg-gradient-white);
+    list-style-type: none;
+    padding: 10px 0 180px 20px;
+    width: 400px;
+}
+
+.catalog .brands li .link {
+    color: #0D63F3;
+    text-decoration: underline;
+}
+
+.catalog .catalog_list li { 
+    height: 45px;
+    padding: 7px 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.catalog .catalog_list li:hover {
+    background-color: #fff;
+}
+
+
+.catalog .catalog_list a {
+    height: 19px;
+    font-size: 16px;
+    font-weight: 539;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #1E1E1E;
+    text-decoration: none;
+}
+
+
+.catalog h1 {
+    height: 19px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1E;
+}
+
+.catalog a {
+    height: 15px;
+    color: #1E1E1E;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.catalog .brands {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.catalog .brands li {
+    height: 27px;
+}
+
+.catalog .right_brands {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-right: 60px;
+    margin-bottom: 220px;
+}
+
+.catalog .right_brands .list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.catalog .right_brands .list ul {
+    width: 208px;
+    height: 148px;
+}
+
+.catalog .right_brands .list ul li {
+    list-style-type: none;
+}
+

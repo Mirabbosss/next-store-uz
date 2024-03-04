@@ -4,6 +4,7 @@ header {
   width: 100%;
   z-index: 1000;
   border-bottom: 1px solid silver;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background-color: #fff;
 }
 
@@ -66,7 +67,7 @@ header .nav .nav__list .nav__list--item:nth-child(1) button {
 
 header .nav .nav__list .nav__list--item:nth-child(1) i {
   font-size: 28px;
-  margin-top: -4px;
+  margin-top: 3px;
 }
 
 header .nav .nav__list .nav__list--item:nth-child(1) button:hover {

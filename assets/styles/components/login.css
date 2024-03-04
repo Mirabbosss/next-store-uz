@@ -1,0 +1,99 @@
+.login {
+    width: 100vw;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    position: fixed;
+    z-index: 1001;
+    display: grid;
+    place-content: center;
+    background-color: #c1bebe6f;
+    backdrop-filter: blur(20px);
+}
+
+.login-hide {
+    display: none;
+}
+
+.login .login_card {
+    width: 466px;
+    height: 425px;
+    border-radius: 10px;
+    background-color: #FBFBFB;
+    position: relative;
+    padding: 80px 66px;
+}
+
+.login .login_card #icon-x i {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 40px;
+    color: #323232;
+    cursor: pointer;
+}
+
+.login .login_card h1 {
+    height: 34px;
+    font-size: 28px;
+    font-weight: 591;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #333232;
+}
+
+.login .login_card .log {
+    width: 334px;
+    height: 40px;
+    padding: 14px, 0px, 14px, 0px;
+    border-radius: 8px;
+    border: 1px solid #0D63F3;
+    color: #ffffff;
+    background-color: #0D63F3;
+    font-size: 16px;
+    font-weight: 539;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.login .login_card .log:hover{
+    background-color: #fff;
+    color: #0D63F3;
+}
+
+.login .login_card p {
+    height: 17px;
+    font-size: 14px;
+    font-weight: 539;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #6C757D;
+    margin-top: 12px;
+}
+
+.login .login_card .sign {
+    width: 334px;
+    height: 40px;
+    padding: 14px, 0px, 14px, 0px;
+    border-radius: 8px;
+    border: 1px solid #ff006f;
+    background-color: #ff006f;
+    cursor: pointer;
+    color: pink;
+    font-size: 16px;
+    font-weight: 539;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.login .login_card .sign:hover{
+    background-color: #ffffff;
+    color: #ff006f
+}

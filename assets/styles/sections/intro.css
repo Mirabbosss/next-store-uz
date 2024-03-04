@@ -44,6 +44,10 @@
     margin-top: 9px;
 }
 
+#intro .category .card a {
+    text-decoration: none;
+}
+
 #intro .category .card h1 {
     height: 19px;
     font-size: 16px;
@@ -109,6 +113,12 @@
     box-shadow: var(--card-shadow);
     padding: 37px 22px;
     cursor: pointer;
+    display: grid;
+    place-content: center;
+}
+
+#intro_computers .category .card a {
+    text-decoration: none;
 }
 
 #intro_computers .container .big_wrapper .wrapper .card:hover {
@@ -122,10 +132,6 @@
 #intro_computers .container .big_wrapper .wrapper .card p {
     text-align: center;
     margin-top: 20px;
-}
-
-#intro_computers .container .big_wrapper .wrapper .card img {
-    margin-left: 20px;
 }
 
 #intro_computers .container .big_wrapper .head_text {
@@ -189,15 +195,24 @@
 
     #intro_computers .container .big_wrapper {
         padding-top: 20px;
+        overflow-y: scroll;
     }
 
     #intro_computers .container .big_wrapper .wrapper {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(5, 1fr);
+        column-gap: 8px;
+        row-gap: 10px;
+    }
+
+    #intro_computers .container .big_wrapper .wrapper .card {
+        width: 140px;
+        padding: 20px 0;
     }
 
     #intro_computers .container .big_wrapper .wrapper .card img {
-        width: 136px;
-        height: 135px;
+        width: 86px;
+        height: 85px;
+        margin-left: 20px;
     }
 }

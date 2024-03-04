@@ -377,8 +377,25 @@
 
     /* ================ General section best_selling_section ================ */
 
-    #general_best_selling_items .wrapper {
+    #general_best_selling_items .big_wrapper .wrapper {
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
         overflow-x: scroll;
+    }
+
+    #general_best_selling_items .big_wrapper .wrapper .card {
+        width: 230px;
+    }
+
+    #general_best_selling_items .big_wrapper .wrapper .card img {
+        margin-left: 8px;
+        margin-top: 8px;
+        z-index: 5;
+    }
+
+
+    #general_best_selling_items .big_wrapper .wrapper .card:hover {
+        transform: scale(1);
     }
 
     #general_best_selling_items .big_wrapper .link {
@@ -390,4 +407,14 @@
     #general_best_selling_items .big_wrapper .link a {
         display: inline-block;
     }
+
+    #general_best_selling_items .big_wrapper .wrap {
+        margin-top: 10px;
+        gap: 10px;
+    }
+
+    #general_best_selling_items .big_wrapper .wrap img {
+        margin-left: 15px;
+    }
+    
 }
