@@ -170,6 +170,197 @@
     margin-top: 10px;
 }
 
+/* ================ Laptoops section Intro_laptoops ================ */
+
+#intro_laptoops {
+    padding-top: 130px;
+}
+
+#intro_laptoops .wrapper {
+    padding-top: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#intro_laptoops .wrapper .wrapper__menu {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 15px;
+    height: 580px;
+}
+
+#intro_laptoops .wrapper .wrapper__menu h1 {
+    height: 19px;
+    font-size: 16px;
+    font-weight: 539;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1E1E1E; 
+}
+
+#intro_laptoops .wrapper .wrapper__menu li {
+    list-style-type: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#intro_laptoops .wrapper .wrapper__menu li a {
+    text-decoration: none;
+    font-family: Nuckle;
+    font-size: 16px;
+    font-weight: 539;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1E;    
+}
+
+#intro_laptoops .wrapper .wrapper__menu a:hover {
+    color: #0D63F3;
+}
+
+#intro_laptoops .wrapper .wrapper__menu button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+#intro_laptoops .wrapper .products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 17px;
+    column-gap: 20px;
+    margin-left: 20px;
+}
+
+#intro_laptoops .wrapper .products .card {
+    background-color: #fff;
+    position: relative;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: var(--card-shadow);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+#intro_laptoops .wrapper .products .card .top_sale {
+    position: absolute;
+    top: 9px;
+    z-index: 5;
+    border: none;
+    color: #fff;
+    background-color: #FF0101;
+    border-radius: 4px;
+    width: 81px;
+    height: 29px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#intro_laptoops .wrapper .products .card .new {
+    position: absolute;
+    top: 9px;
+    z-index: 5;
+    border: none;
+    color: #fff;
+    background-color: #EB8528;
+    border-radius: 4px;
+    width: 81px;
+    height: 29px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#intro_laptoops .wrapper .products .card:hover {
+    transform: scale(1.05);
+}
+
+#intro_laptoops .wrapper .products .card img {
+    margin-left: 25px;
+    margin-top: 18px;
+    z-index: 5;
+}
+
+#intro_laptoops .wrapper .products .card .cart {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    cursor: pointer;
+}
+
+#intro_laptoops .wrapper .products h1 {
+    height: 22px;
+    font-size: 18px;
+    font-weight: 591;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0D63F3;
+}
+
+#intro_laptoops .wrapper .products p {
+    font-size: 14px;
+    font-weight: 539;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 34px;
+    color: #1E1E1E;
+    margin-top: 6px;
+}
+
+#intro_laptoops .wrapper .products h3 {
+    height: 17px;
+    font-size: 14px;
+    font-weight: 539;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6C757D;
+    margin-top: 33px;
+}
+
+#intro_laptoops .wrapper .products button {
+    padding: 8px 8px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 25x;
+    background-color: #0D63F3;
+    font-family: Nuckle;
+    font-size: 16px;
+    font-weight: 539;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+#intro_laptoops .wrapper .products button:hover {
+    color: #0D63F3;
+    background-color: #fff;
+    border: 1px solid #0D63F3;
+}
+
+#intro_laptoops .wrapper .products img:hover {
+    transform: scale(1.1);
+}
+
+
 
 
 @media only screen and (max-width: 380px) {
@@ -214,5 +405,31 @@
         width: 86px;
         height: 85px;
         margin-left: 20px;
+    }
+
+    /* ================ Laptoops section Intro_laptoops ================ */
+
+    #intro_laptoops {
+        padding-top: 80px;
+    }
+
+    #intro_laptoops .wrapper {
+        padding-top: 90px;
+        overflow-x: scroll;
+    }
+
+    #intro_laptoops .wrapper .products {
+        margin-left: 10px;
+        row-gap: 10px;
+        column-gap: 10px;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    #intro_laptoops .wrapper .products .card {
+        padding: 5px;
+        box-shadow: var(--card-shadow);
+        transition: all 0.4s ease-in-out;
+        cursor: pointer;
     }
 }

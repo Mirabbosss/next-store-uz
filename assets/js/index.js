@@ -27,3 +27,4 @@ catalogButton.addEventListener('click', function(){
         catalogIcon.innerHTML = `<i class="bx bx-menu"></i>`
     }
 });
+
