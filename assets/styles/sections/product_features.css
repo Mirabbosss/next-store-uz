@@ -1,0 +1,73 @@
+#product_features {
+    width: 100%;
+}
+
+#product_features .wrapper {
+    padding: 30px 20px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+#product_features .wrapper span {
+    height: 34px;
+    font-size: 28px;
+    font-weight: 591;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1E;
+}
+
+#product_features .wrapper .card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#product_features .wrapper .card .left {
+    width: 50%;
+    display: flex;
+}
+
+#product_features .wrapper .card .right {
+    width: 50%;
+    display: flex;
+}
+
+
+#product_features .wrapper .card h1 {
+    height: 22px;
+    font-size: 18px;
+    font-weight: 591;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1E;
+}
+
+#product_features .wrapper .card h2 {
+    height: 19px;
+    font-size: 16px;
+    font-weight: 653;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-align: right;
+    color: #1E1E1E; 
+    margin-left: 100px;
+    margin-top: 14px;
+}
+
+#product_features .wrapper .card p {
+    height: 19px;
+    font-size: 16px;
+    font-weight: 539;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #6C757D;
+    margin-top: 19px;
+}
+
+#product_features .wrapper .card .wrap {
+    margin-top: 60px;
+}

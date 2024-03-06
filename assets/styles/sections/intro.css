@@ -186,7 +186,6 @@
     padding: 15px;
     background-color: #fff;
     border-radius: 15px;
-    height: 580px;
 }
 
 #intro_laptoops .wrapper .wrapper__menu h1 {
@@ -360,8 +359,522 @@
     transform: scale(1.1);
 }
 
+/* ================ Laptoops-2 section Intro_laptoops ================ */
+
+#intro_laptoops-2 {
+    padding-top: 130px;
+}
+
+#intro_laptoops-2 .wrapper {
+    padding-top: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#intro_laptoops-2 .wrapper .wrapper__menu {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+#intro_laptoops-2 .wrapper .wrapper__menu h1 {
+    height: 19px;
+    font-size: 16px;
+    font-weight: 539;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1E1E1E; 
+}
+
+#intro_laptoops-2 .wrapper .wrapper__menu li {
+    list-style-type: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#intro_laptoops-2 .wrapper .wrapper__menu li a {
+    text-decoration: none;
+    font-family: Nuckle;
+    font-size: 16px;
+    font-weight: 539;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1E;    
+}
+
+#intro_laptoops-2 .wrapper .wrapper__menu a:hover {
+    color: #0D63F3;
+}
+
+#intro_laptoops-2 .wrapper .wrapper__menu button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+#intro_laptoops-2 .wrapper .products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 17px;
+    column-gap: 20px;
+    margin-left: 20px;
+}
+
+#intro_laptoops-2 .wrapper .products .card {
+    background-color: #fff;
+    position: relative;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: var(--card-shadow);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    
+}
+
+#intro_laptoops-2 .wrapper .products .card .top_sale {
+    position: absolute;
+    top: 9px;
+    z-index: 5;
+    border: none;
+    color: #fff;
+    background-color: #FF0101;
+    border-radius: 4px;
+    width: 81px;
+    height: 29px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#intro_laptoops-2 .wrapper .products .card .new {
+    position: absolute;
+    top: 9px;
+    z-index: 5;
+    border: none;
+    color: #fff;
+    background-color: #EB8528;
+    border-radius: 4px;
+    width: 81px;
+    height: 29px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#intro_laptoops-2 .wrapper .products .card:hover {
+    transform: scale(1.05);
+}
+
+#intro_laptoops-2 .wrapper .products .card img {
+    margin-left: 25px;
+    margin-top: 18px;
+    z-index: 5;
+}
+
+#intro_laptoops-2 .wrapper .products .card .cart {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    cursor: pointer;
+}
+
+#intro_laptoops-2 .wrapper .products h1 {
+    height: 22px;
+    font-size: 18px;
+    font-weight: 591;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0D63F3;
+}
+
+#intro_laptoops-2 .wrapper .products p {
+    font-size: 14px;
+    font-weight: 539;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 34px;
+    color: #1E1E1E;
+    margin-top: 6px;
+}
+
+#intro_laptoops-2 .wrapper .products h3 {
+    height: 17px;
+    font-size: 14px;
+    font-weight: 539;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6C757D;
+    margin-top: 33px;
+}
+
+#intro_laptoops-2 .wrapper .products button {
+    padding: 8px 8px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 25x;
+    background-color: #0D63F3;
+    font-family: Nuckle;
+    font-size: 16px;
+    font-weight: 539;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+#intro_laptoops-2 .wrapper .products button:hover {
+    color: #0D63F3;
+    background-color: #fff;
+    border: 1px solid #0D63F3;
+}
+
+#intro_laptoops-2 .wrapper .products img:hover {
+    transform: scale(1.1);
+}
+
+/* ================ Single product section Intro_single_product ================ */
+
+#intro_single_product {
+    padding: 130px;
+}
+
+#intro_single_product .inner__text {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+#intro_single_product p {
+    height: 17px;
+    font-size: 14px;
+    font-weight: 539;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6C757D;
+}
+
+#intro_single_product h1 {
+    height: 17px;
+    font-size: 14px;
+    font-weight: 539;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1E;
+}
+
+#intro_single_product .big_wrapper {
+    padding: 40px 45px 36px 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+#intro_single_product .big_wrapper .wrapper_left .top {
+    background-color: #fff;
+    padding: 55px 79px 121px 80px;
+    position: relative;
+    z-index: -1;
+}
+
+#intro_single_product .big_wrapper .wrapper_left .top .icons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    gap: 20px;
+}
+
+#intro_single_product .big_wrapper .wrapper_left .bottom {
+    margin-top: 42px;
+    display: flex;
+    gap: 42px;
+    padding-right: 0;
+}
+
+#intro_single_product .big_wrapper .wrapper_right h2 {
+    width: 560px;
+    height: 68px;
+    font-size: 28px;
+    font-weight: 591;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1E;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .wrap .text {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .wrap .text h1 {
+    height: 22px;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .wrap  .colors {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 230px;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .wrap  .colors span {
+    width: 46px;
+    height: 46px;
+    border-radius: 4px;
+    border: 2px;
+    cursor: pointer;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .wrap  .colors span:hover {
+    border: 3px solid rgba(255, 0, 0, 0.322);
+}
+
+#intro_single_product .big_wrapper .wrapper_right .wrap  .colors span:nth-child(1) {
+    background-color: #BEBBC2;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .wrap  .colors span:nth-child(2) {
+    background-color: #F9DED7;
+}
 
 
+#intro_single_product .big_wrapper .wrapper_right .wrap  .colors span:nth-child(3) {
+    background-color: #FCE9DB;
+}
+
+
+#intro_single_product .big_wrapper .wrapper_right .wrap  .colors span:nth-child(4) {
+    background-color: #E8E8EA;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .h1 {
+    height: 58px;
+    font-family: Nuckle;
+    font-size: 48px;
+    font-weight: 591;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E1E1E; 
+}
+
+#intro_single_product .big_wrapper .wrapper_right h3 {
+    font-size: 24px;
+    font-weight: 591;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0D63F3;
+    height: 29px;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .data {
+    width: 500px;
+    height: 54px;
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+
+#intro_single_product .big_wrapper .wrapper_right .data button {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .data button:first-child {
+    width: 322px;
+    height: 54px;
+    padding: 1px, 2px, 1px, 2px;
+    border-radius: 8px;
+    color: #fff;
+    border: 1px solid #0D63F3;
+    display: flex;
+    align-items: center;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .data button:first-child h2 {
+    height: 22px;
+    font-size: 18px;
+    font-weight: 591;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 52px;
+    transition: all 0.2s linear;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .data button:first-child h2:hover {
+    transform: scale(1.05);
+    color: #0D63F3;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .data button:first-child h2:first-child {
+    width: 100px;
+    color: #0D63F3;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .data button:last-child {
+    width: 158px;
+    height: 52px;
+    padding: 14px, 29px, 14px, 20px;
+    border-radius: 10px;
+    gap: 10px;
+    border: 1px solid #0D63F3;
+    display: flex;
+    align-items: center;
+    padding: 15px 29px;
+    transition: all 0.4s ease-out;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .data button:last-child:hover {
+    background-color: #0D63F3;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .data button:last-child:hover i {
+    color: #ffffff;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .data button:last-child:hover h2 {
+    color: #ffffff;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .data button:last-child i {
+    font-size: 24px;
+    font-weight: 24px;
+    color: #0D63F3;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .data button:last-child h2 {
+    height: 21px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0D63F3;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .buttons_card {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    gap: 40px;
+    margin-top: 41px;
+} 
+
+#intro_single_product .big_wrapper .wrapper_right .buttons_card button {
+    width: 230px;
+    height: 52px;
+    padding: 15px, 72.5px, 16px, 72.5px;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: #0D63F3;
+    border: 1px solid #0D63F3;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    transition: all 0.4s ease-in;
+    cursor: pointer;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .buttons_card button:hover {
+    background-color: #fff;
+    color: #0D63F3;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .info .magazine {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 346px;
+    height: 24px;
+    margin-top: 40px;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .info .magazine p {
+    height: 17px;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .info .magazine h1 {
+    height: 22px;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .info .send {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 346px;
+    height: 24px;
+    margin-top: 12px;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .info .send p {
+    height: 17px;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .info .send h1:first-child {
+    height: 22px;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .info .send h1:last-child {
+    color: #2CB708;
+}
+
+
+#intro_single_product .big_wrapper .wrapper_right .info .re {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 521px;
+    height: 24px;
+    margin-top: 12px;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .info .re p {
+    height: 17px;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .info .re h1 {
+    height: 22px;
+}
+
+#intro_single_product .big_wrapper .wrapper_right .info .re a {
+    height: 22px;
+    font-size: 18px;
+    font-weight: 591;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0D63F3;
+    margin-bottom: 5px;
+}
 
 @media only screen and (max-width: 380px) {
 
@@ -427,6 +940,32 @@
     }
 
     #intro_laptoops .wrapper .products .card {
+        padding: 5px;
+        box-shadow: var(--card-shadow);
+        transition: all 0.4s ease-in-out;
+        cursor: pointer;
+    }
+
+    /* ================ Laptoops section-2 Intro_laptoops ================ */
+
+    #intro_laptoops-2 {
+        padding-top: 80px;
+    }
+
+    #intro_laptoops-2 .wrapper {
+        padding-top: 90px;
+        overflow-x: scroll;
+    }
+
+    #intro_laptoops-2 .wrapper .products {
+        margin-left: 10px;
+        row-gap: 10px;
+        column-gap: 10px;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(10, 1fr);
+    }
+
+    #intro_laptoops-2 .wrapper .products .card {
         padding: 5px;
         box-shadow: var(--card-shadow);
         transition: all 0.4s ease-in-out;

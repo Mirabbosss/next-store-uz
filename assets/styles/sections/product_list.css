@@ -1,0 +1,75 @@
+#product_list {
+    width: 100%;
+}
+
+#product_list .wrapper {
+    background-color: #fff;
+}
+
+#product_list .checkbox {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#product_list .checkbox input {
+    width: 18px;
+    height: 18px;
+}
+
+#product_list p {
+    font-size: 14px;
+    font-weight: 539;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333232;
+}
+
+#product_list .list_item {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#product_list .list_item .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 30px 10px;
+    border-bottom: 1px solid hwb(0 54% 46%);
+}
+
+#product_list .list_item .item h1 {
+    width: 111px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 653;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #1E1E1E;
+}
+
+#product_list .list_item .item button {
+    width: 200.04px;
+    height: 40px;
+    padding: 10px, 20px, 10px, 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 539;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #0D63F3;
+    background-color: #ECF4FF;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#product_list .list_item .item button:hover {
+    color: #ECF4FF;
+    background-color: #0D63F3;
+}
